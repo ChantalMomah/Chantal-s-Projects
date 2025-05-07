@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A feature-rich task management application to organize your daily activities">
+    <link rel="stylesheet" href="tasks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Sparkle Tasks✨</title>
+</head>
+<body>
+    <!-- Auth Container for Login -->
+    <div class="auth-container">
+        <!-- Login Form -->
+        <div id="login-form-container" class="form-container">
+            <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+            <form id="login-form" aria-labelledby="login-heading">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="Enter your email" required autocomplete="username" />
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <div class="password-field">
+                        <input type="password" id="login-password" placeholder="Enter your password" required autocomplete="current-password" />
+                        <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <button type="submit" id="login-btn" class="primary-btn">Login</button>
+            </form>
+            <p class="auth-switch">Don't have an account? <a href="register.html">Register here</a></p>
+            <p class="forgotten-password"><a href="ForgotPassword.html">Forgot password?</a></p>
+        </div>
+    </div>
+
+    <!-- The rest of your existing dashboard code remains unchanged -->
+    <!-- Task Manager Dashboard -->
+    <div class="dashboard-container" style="display: none;">
+        <!-- Dashboard content remains the same as your original file -->
+    </div>
+
+    <!-- Task Modal -->
+    <div class="modal" id="task-modal" aria-labelledby="modal-title" aria-hidden="true">
+        <!-- Modal content remains the same as your original file -->
+    </div>
+
+    <!-- Category Modal -->
+    <div class="modal" id="category-modal" aria-labelledby="category-modal-title" aria-hidden="true">
+        <!-- Modal content remains the same as your original file -->
+    </div>
+
+    <!-- Notification Container -->
+    <div class="notification-container" id="notification-container"></div>
+
+    <!-- Scripts -->
+    <script src="tasks.js"></script>
+</body>
+</html>
