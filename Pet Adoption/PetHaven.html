@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Haven - Adopt a Pet</title>
+    <link rel="stylesheet" href="PetHaven.css">
+    <script src="PetHaven.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🐾 Welcome to Pet Haven</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#pets">Available Pets</a> |
+            <a href="#adoption-form">Adoption Form</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We connect loving families with rescued animals. Adopt, don’t shop!</p>
+    </section>
+
+    <section id="pets">
+        <h2>Available Pets</h2>
+        <div>
+            <h3>🐶 Max</h3>
+            <p>Breed: Labrador Retriever<br>Age: 2 years<br>Gender: Male</p>
+        </div>
+        <div>
+            <h3>🐱 Luna</h3>
+            <p>Breed: Persian Cat<br>Age: 3 years<br>Gender: Female</p>
+        </div>
+        <div>
+            <h3>🐶 Bella</h3>
+            <p>Breed: Beagle<br>Age: 1.5 years<br>Gender: Female</p>
+        </div>
+    </section>
+
+    <section id="adoption-form">
+        <h2>Adoption Form</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="pet">Which pet do you want to adopt?</label><br>
+            <input type="text" id="pet" name="pet" required><br><br>
+
+            <label for="message">Why do you want to adopt this pet?</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@pethaven.org</p>
+        <p>Phone: +234 800 000 0000</p>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Pet Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
