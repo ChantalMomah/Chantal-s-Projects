@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine Cosmetics</title>
+    <link rel="stylesheet" href="scw.css">
+  
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <i class="fas fa-spa"></i>
+                Shine Cosmetics
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shopping">Shopping</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to <span>Shine Cosmetics</span></h1>
+                <p>Be your own beautiful</p>
+                <a href="#services" class="btn">Explore Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="shopping" class="section">
+        <div class="container">
+            <h2>Shop Our Collection</h2>
+            <p class="section-desc">We have every product you need to enhance your natural beauty</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Luxury Skincare</h3>
+                    <p>Premium skincare products for all skin types</p>
+                    <span class="price">From #30,000</span>
+                    <a href="#" class="btn-outline">Shop Now</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Makeup Essentials</h3>
+                    <p>Everything you need for a flawless look</p>
+                    <span class="price">From #50,000</span>
+                    <a href="#" class="btn-outline">Shop Now</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Fragrance Collection</h3>
+                    <p>Signature scents for every occasion</p>
+                    <span class="price">From #75,000</span>
+                    <a href="#" class="btn-outline">Shop Now</a>
+                </div>
+            </div>
+            
+            <div class="cta-center">
+                <a href="#" class="btn">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="section">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <p class="section-desc">Meet with our beauty professionals for personalized consultations</p>
+            
+            <div class="appointment-container">
+                <div class="appointment-image"></div>
+                <div class="appointment-form">
+                    <h3>Schedule Your Visit</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="app-name">Full Name</label>
+                            <input type="text" id="app-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-email">Email</label>
+                            <input type="email" id="app-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-date">Preferred Date</label>
+                            <input type="date" id="app-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-time">Preferred Time</label>
+                            <input type="time" id="app-time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="app-service">Service</label>
+                            <select id="app-service" required>
+                                <option value="">Select a service</option>
+                                <option value="makeup">Makeup Consultation</option>
+                                <option value="skincare">Skincare Consultation</option>
+                                <option value="fragrance">Fragrance Selection</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-image"></div>
+                <div class="about-text">
+                    <h3>We bring out your inner beauty</h3>
+                    <p>At Shine Cosmetics, we believe that everyone deserves to feel beautiful in their own skin. Founded in 2018, our mission is to provide high-quality cosmetic products that enhance your natural beauty and boost your confidence.</p>
+                    <p>Our team of beauty experts carefully selects each product in our collection, ensuring that we offer only the best for our valued customers. From luxurious skincare to stunning makeup and captivating fragrances, we have everything you need to express yourself and shine.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-text">Happy Customers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-text">Premium Products</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15</span>
+                            <span class="stat-text">Expert Consultants</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-desc">Experience luxury beauty services tailored just for you</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Shop Online</h3>
+                    <p>Dive into an amazing world of beauty products from the comfort of your home. Browse our extensive collection and find your perfect match.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Delivery</h3>
+                    <p>We deliver to your doorstep with care and efficiency. Enjoy fast shipping and tracking on all your beauty purchases.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Expert Consultations</h3>
+                    <p>Visit our store and speak to professionals about the best products for your specific needs. Get personalized beauty advice.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Gift Services</h3>
+                    <p>Looking for the perfect present? We offer beautiful gift wrapping and personalized beauty gift sets for your loved ones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"Shine Cosmetics completely transformed my skincare routine. Their products are amazing and the consultant helped me find exactly what I needed!"</p>
+                        <div class="testimonial-author">
+                            <h4>Maryam Abubakar</h4>
+                            <p>Loyal Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"I love the personalized service at Shine Cosmetics. The staff is knowledgeable and the products are truly top-notch. I won't shop anywhere else!"</p>
+                        <div class="testimonial-author">
+                            <h4>Michaela Adebayo</h4>
+                            <p>Regular Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The delivery service is fast and reliable. I ordered makeup for a special event and it arrived beautifully packaged the next day. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <h4>Elizabeth Okafor</h4>
+                            <p>New Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-desc">We'd love to hear from you</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 Beauty Street, Port Harcourt, Rivers State</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <p>+234(0) 8000000000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p>info@shinecosmetics.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Saturday: 9am - 8pm<br>Sunday: 10am - 6pm</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-spa"></i>
+                    Shine Cosmetics
+                </div>
+                <p>Bringing out your inner beauty since 2018.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shopping">Shop</a></li>
+                    <li><a href="#appointment">Appointments</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shine Cosmetics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="scw.js"></script>
+</body>
+</html>
